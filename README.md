@@ -58,4 +58,4 @@ order by
 |110|2024-03|877|
 |111|2024-04|246|
 
-![MonthWise_CustomerCount](visuals\MonthWise_CustomerCount.png)
+![MonthWise_CustomerCount](visuals/MonthWise_CustomerCount.png)
