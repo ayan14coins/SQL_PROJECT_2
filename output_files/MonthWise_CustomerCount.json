@@ -1,0 +1,450 @@
+[
+  {
+    "order_month": "2015-01",
+    "total_customer": "200"
+  },
+  {
+    "order_month": "2015-02",
+    "total_customer": "291"
+  },
+  {
+    "order_month": "2015-03",
+    "total_customer": "139"
+  },
+  {
+    "order_month": "2015-04",
+    "total_customer": "78"
+  },
+  {
+    "order_month": "2015-05",
+    "total_customer": "236"
+  },
+  {
+    "order_month": "2015-06",
+    "total_customer": "238"
+  },
+  {
+    "order_month": "2015-07",
+    "total_customer": "227"
+  },
+  {
+    "order_month": "2015-08",
+    "total_customer": "235"
+  },
+  {
+    "order_month": "2015-09",
+    "total_customer": "277"
+  },
+  {
+    "order_month": "2015-10",
+    "total_customer": "304"
+  },
+  {
+    "order_month": "2015-11",
+    "total_customer": "275"
+  },
+  {
+    "order_month": "2015-12",
+    "total_customer": "367"
+  },
+  {
+    "order_month": "2016-01",
+    "total_customer": "323"
+  },
+  {
+    "order_month": "2016-02",
+    "total_customer": "429"
+  },
+  {
+    "order_month": "2016-03",
+    "total_customer": "207"
+  },
+  {
+    "order_month": "2016-04",
+    "total_customer": "123"
+  },
+  {
+    "order_month": "2016-05",
+    "total_customer": "300"
+  },
+  {
+    "order_month": "2016-06",
+    "total_customer": "312"
+  },
+  {
+    "order_month": "2016-07",
+    "total_customer": "264"
+  },
+  {
+    "order_month": "2016-08",
+    "total_customer": "292"
+  },
+  {
+    "order_month": "2016-09",
+    "total_customer": "312"
+  },
+  {
+    "order_month": "2016-10",
+    "total_customer": "311"
+  },
+  {
+    "order_month": "2016-11",
+    "total_customer": "310"
+  },
+  {
+    "order_month": "2016-12",
+    "total_customer": "405"
+  },
+  {
+    "order_month": "2017-01",
+    "total_customer": "332"
+  },
+  {
+    "order_month": "2017-02",
+    "total_customer": "449"
+  },
+  {
+    "order_month": "2017-03",
+    "total_customer": "240"
+  },
+  {
+    "order_month": "2017-04",
+    "total_customer": "123"
+  },
+  {
+    "order_month": "2017-05",
+    "total_customer": "356"
+  },
+  {
+    "order_month": "2017-06",
+    "total_customer": "355"
+  },
+  {
+    "order_month": "2017-07",
+    "total_customer": "332"
+  },
+  {
+    "order_month": "2017-08",
+    "total_customer": "375"
+  },
+  {
+    "order_month": "2017-09",
+    "total_customer": "422"
+  },
+  {
+    "order_month": "2017-10",
+    "total_customer": "446"
+  },
+  {
+    "order_month": "2017-11",
+    "total_customer": "482"
+  },
+  {
+    "order_month": "2017-12",
+    "total_customer": "610"
+  },
+  {
+    "order_month": "2018-01",
+    "total_customer": "586"
+  },
+  {
+    "order_month": "2018-02",
+    "total_customer": "796"
+  },
+  {
+    "order_month": "2018-03",
+    "total_customer": "459"
+  },
+  {
+    "order_month": "2018-04",
+    "total_customer": "251"
+  },
+  {
+    "order_month": "2018-05",
+    "total_customer": "741"
+  },
+  {
+    "order_month": "2018-06",
+    "total_customer": "1024"
+  },
+  {
+    "order_month": "2018-07",
+    "total_customer": "676"
+  },
+  {
+    "order_month": "2018-08",
+    "total_customer": "801"
+  },
+  {
+    "order_month": "2018-09",
+    "total_customer": "854"
+  },
+  {
+    "order_month": "2018-10",
+    "total_customer": "931"
+  },
+  {
+    "order_month": "2018-11",
+    "total_customer": "939"
+  },
+  {
+    "order_month": "2018-12",
+    "total_customer": "1155"
+  },
+  {
+    "order_month": "2019-01",
+    "total_customer": "1093"
+  },
+  {
+    "order_month": "2019-02",
+    "total_customer": "1341"
+  },
+  {
+    "order_month": "2019-03",
+    "total_customer": "732"
+  },
+  {
+    "order_month": "2019-04",
+    "total_customer": "393"
+  },
+  {
+    "order_month": "2019-05",
+    "total_customer": "1032"
+  },
+  {
+    "order_month": "2019-06",
+    "total_customer": "967"
+  },
+  {
+    "order_month": "2019-07",
+    "total_customer": "853"
+  },
+  {
+    "order_month": "2019-08",
+    "total_customer": "924"
+  },
+  {
+    "order_month": "2019-09",
+    "total_customer": "887"
+  },
+  {
+    "order_month": "2019-10",
+    "total_customer": "947"
+  },
+  {
+    "order_month": "2019-11",
+    "total_customer": "899"
+  },
+  {
+    "order_month": "2019-12",
+    "total_customer": "1003"
+  },
+  {
+    "order_month": "2020-01",
+    "total_customer": "934"
+  },
+  {
+    "order_month": "2020-02",
+    "total_customer": "1139"
+  },
+  {
+    "order_month": "2020-03",
+    "total_customer": "497"
+  },
+  {
+    "order_month": "2020-04",
+    "total_customer": "233"
+  },
+  {
+    "order_month": "2020-05",
+    "total_customer": "459"
+  },
+  {
+    "order_month": "2020-06",
+    "total_customer": "346"
+  },
+  {
+    "order_month": "2020-07",
+    "total_customer": "243"
+  },
+  {
+    "order_month": "2020-08",
+    "total_customer": "197"
+  },
+  {
+    "order_month": "2020-09",
+    "total_customer": "175"
+  },
+  {
+    "order_month": "2020-10",
+    "total_customer": "171"
+  },
+  {
+    "order_month": "2020-11",
+    "total_customer": "156"
+  },
+  {
+    "order_month": "2020-12",
+    "total_customer": "241"
+  },
+  {
+    "order_month": "2021-01",
+    "total_customer": "243"
+  },
+  {
+    "order_month": "2021-02",
+    "total_customer": "413"
+  },
+  {
+    "order_month": "2021-03",
+    "total_customer": "258"
+  },
+  {
+    "order_month": "2021-04",
+    "total_customer": "186"
+  },
+  {
+    "order_month": "2021-05",
+    "total_customer": "589"
+  },
+  {
+    "order_month": "2021-06",
+    "total_customer": "710"
+  },
+  {
+    "order_month": "2021-07",
+    "total_customer": "696"
+  },
+  {
+    "order_month": "2021-08",
+    "total_customer": "754"
+  },
+  {
+    "order_month": "2021-09",
+    "total_customer": "910"
+  },
+  {
+    "order_month": "2021-10",
+    "total_customer": "988"
+  },
+  {
+    "order_month": "2021-11",
+    "total_customer": "1035"
+  },
+  {
+    "order_month": "2021-12",
+    "total_customer": "1435"
+  },
+  {
+    "order_month": "2022-01",
+    "total_customer": "1362"
+  },
+  {
+    "order_month": "2022-02",
+    "total_customer": "1871"
+  },
+  {
+    "order_month": "2022-03",
+    "total_customer": "1105"
+  },
+  {
+    "order_month": "2022-04",
+    "total_customer": "696"
+  },
+  {
+    "order_month": "2022-05",
+    "total_customer": "1652"
+  },
+  {
+    "order_month": "2022-06",
+    "total_customer": "1741"
+  },
+  {
+    "order_month": "2022-07",
+    "total_customer": "1564"
+  },
+  {
+    "order_month": "2022-08",
+    "total_customer": "1647"
+  },
+  {
+    "order_month": "2022-09",
+    "total_customer": "1731"
+  },
+  {
+    "order_month": "2022-10",
+    "total_customer": "1705"
+  },
+  {
+    "order_month": "2022-11",
+    "total_customer": "1611"
+  },
+  {
+    "order_month": "2022-12",
+    "total_customer": "1960"
+  },
+  {
+    "order_month": "2023-01",
+    "total_customer": "1579"
+  },
+  {
+    "order_month": "2023-02",
+    "total_customer": "1946"
+  },
+  {
+    "order_month": "2023-03",
+    "total_customer": "1056"
+  },
+  {
+    "order_month": "2023-04",
+    "total_customer": "551"
+  },
+  {
+    "order_month": "2023-05",
+    "total_customer": "1363"
+  },
+  {
+    "order_month": "2023-06",
+    "total_customer": "1301"
+  },
+  {
+    "order_month": "2023-07",
+    "total_customer": "1126"
+  },
+  {
+    "order_month": "2023-08",
+    "total_customer": "1198"
+  },
+  {
+    "order_month": "2023-09",
+    "total_customer": "1255"
+  },
+  {
+    "order_month": "2023-10",
+    "total_customer": "1217"
+  },
+  {
+    "order_month": "2023-11",
+    "total_customer": "1246"
+  },
+  {
+    "order_month": "2023-12",
+    "total_customer": "1484"
+  },
+  {
+    "order_month": "2024-01",
+    "total_customer": "1340"
+  },
+  {
+    "order_month": "2024-02",
+    "total_customer": "1718"
+  },
+  {
+    "order_month": "2024-03",
+    "total_customer": "877"
+  },
+  {
+    "order_month": "2024-04",
+    "total_customer": "246"
+  }
+]
