@@ -47,15 +47,58 @@ group by
 order by
 	order_month
 ```
-|index|order\_month|total\_customers|
-|---|---|---|
-|0|2015-01|200|
-|1|2015-02|291|
-|2|2015-03|139|
-|3|2015-04|78|
-|...|...|...
-|109|2024-02|1718|
-|110|2024-03|877|
-|111|2024-04|246|
 
 ![MonthWise_CustomerCount](visuals/MonthWise_CustomerCount.png)
+
+**Insights:**
+- The overall trend from 2015 to 2022 shows significant growth in unique monthly customers, indicating successful customer acquisition and business expansion over time
+- Customer counts consistently peak in December, likely due to holiday shopping, and then sharply dip in January as post-holiday demand subsides
+- February often sees a noticeable rebound, which can be attributed to events like Valentine’s Day
+- April consistently marks a seasonal low in unique customer counts, making it a predictable slowdown ideal for targeted marketing and inventory planning
+- The sharp decline in unique customer counts during 2020 clearly aligns with the impact of the COVID-19 pandemic on consumer behavior and business operations
+
+### 2. Quarterly Customer Distribution by Continent – 2020, 2021, 2022
+
+**Problem Statement:**  
+Analyze how customer engagement varied across different continents (Europe, Australia, and North America) during each quarter of the year 2020, 2021 & 2022.
+
+**Description:**  
+This query provides a quarterly breakdown of unique customers by continent. By focusing on these years, it helps identify geographic trends in customer activity and potential regional performance patterns. This is particularly useful for market comparison and understanding customer distribution over time.
+
+**Approach:**  
+- Use `EXTRACT(quarter FROM orderdate)` to group orders by quarter within 2020.  
+- Use `CASE WHEN` statements to filter customers by continent (Europe, Australia, North America).  
+- Use `COUNT(DISTINCT customerkey)` to avoid double-counting customers across orders.  
+- Apply a `LEFT JOIN` with the `customer` table to access continent-level details.  
+- Filter data specifically for the year 2020 using `EXTRACT(year FROM orderdate)`.  
+- Group results by quarter to generate the final comparison table.
+
+*The same approach was applied for 2021 and 2022*
+
+```sql
+select
+	extract(quarter from s.orderdate) as "Quarter 2020",
+	count(distinct case when c.continent = 'Europe' then s.customerkey end) as "EU Customers",
+	count(distinct case when c.continent = 'Australia' then s.customerkey end) as "AUS Customers",
+	count(distinct case when c.continent = 'North America' then s.customerkey end) as "NA Customers"
+from
+	sales s
+left join
+	customer c on s.customerkey = c.customerkey
+where
+	extract(year from s.orderdate) = 2020
+group by
+	extract(quarter from s.orderdate)
+```
+
+![QuarterCustomerCountContinent_2020](visuals/QuarterCustomerCountContinent_2020.png)
+![QuarterCustomerCountContinent_2020](visuals/QuarterCustomerCountContinent_2021.png)
+![QuarterCustomerCountContinent_2020](visuals/QuarterCustomerCountContinent_2022.png)
+
+**Insights:**
+- 2020 saw a sharp decline in customer engagement across all continents, with Q4 marking the lowest counts due to COVID-19.
+- 2021 showed steady recovery, led by North America, with Europe and Australia also surpassing pre-pandemic levels by year-end.
+- 2022 continued strong growth, with record-high customer counts in all regions by Q4.
+- North America maintained the highest customer base throughout, though Europe and Australia closed the gap in 2021–2022.
+- The most significant shifts were the sharp drop in early 2020 and the rapid rebound in 2021, underscoring global event sensitivity.
+- By end-2022, all regions had not only recovered but exceeded pre-pandemic levels, reflecting successful adaptation and growth strategies.
